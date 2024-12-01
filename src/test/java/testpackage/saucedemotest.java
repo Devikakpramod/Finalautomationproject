@@ -10,7 +10,7 @@ public class saucedemotest extends basecls {
     @Test
     public void test() throws Exception {
         saucedemopage sg = new saucedemopage(driver);
-        String exl = "path_to_excel_file";  // Your Excel file path
+        String exl = "https://d.docs.live.net/4432f20a074cf40f/Documents/mavenprjct.xlsx";  // Your Excel file path
         String Sheet1 = "Sheet1";
         int rowCount = Excelutils.getRowCount1(exl, Sheet1);
 
